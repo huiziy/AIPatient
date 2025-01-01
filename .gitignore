@@ -1,0 +1,35 @@
+# General
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.out
+*.err
+
+# IDEs/Editors
+.idea/
+.vscode/
+*.swp
+
+# OS Generated
+.Trash-*
+Thumbs.db
+
