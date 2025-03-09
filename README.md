@@ -11,7 +11,7 @@
 
 **Overview:** In this project, we developed **AIPatient**, an LLM powered simulated patient based on Electronic Health Records (EHR) data. Leveraging the MIMIC III dataset, which includes over 46k<sup>[1](#myfootnote1)</sup> patients, we began by extracting relevant medical entities and their relationships to construct a comprehensive knowledge graph (KG). Next, we designed a multi-agent system and proposed the **Reasoning RAG** framework to accurately represent the information within the KG, ensuring minimal hallucination and high factual accuracy. By incorporating personalities, AIPatient can mimic real-life interactions, responding to questions and presenting symptoms in a manner similar to actual patients. In future iterations, we aim to incorporate evaluator agent to provide feedback on user performance, potentially enhancing medical training and ultimately improving patient care outcomes. 
 
-<a name="myfootnote1">1</a>: For the current iteration, AIPatient contains 100 unique cases. We plan to scale the patient pool in the future. 
+<a name="myfootnote1">1</a>: For the current iteration, AIPatient contains 56 unique cases. We plan to scale the patient pool in the future. 
 
 ## LLM Agent Interaction
 
